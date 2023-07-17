@@ -45,4 +45,4 @@ def update_graph_scatter(n):
             'layout' : go.Layout(xaxis=dict(range=[min(X),max(X)]),yaxis = dict(range = [min(Y),max(Y)]),)}
   
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(host='0.0.0.0', port=8050)
