@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bars:
+    build: ./bars
+    ports:
+      - 8050:8050
